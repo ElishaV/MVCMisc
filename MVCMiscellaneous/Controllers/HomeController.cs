@@ -26,5 +26,17 @@ namespace MVCMiscellaneous.Controllers
 
             return View();
         }
+
+        [NonAction]
+        public void Shalom()
+        {
+            string greeting = "shalom haver!";
+        }
+
+        public string Hello()
+        {
+            string greeting = "shalom haver!";
+            return greeting;
+        }
     }
 }
