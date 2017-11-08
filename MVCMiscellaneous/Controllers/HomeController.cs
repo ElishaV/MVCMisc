@@ -38,5 +38,10 @@ namespace MVCMiscellaneous.Controllers
             string greeting = "shalom haver!";
             return greeting;
         }
+
+        public ActionResult Countries (List<string> countryNames)
+        {
+            return View(countryNames);
+        }
     }
 }
