@@ -8,8 +8,13 @@ namespace MVCMiscellaneous.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index()
+        public ActionResult Index(string choise = "o")
         {
+            if (choise.Equals("a"))
+                ViewBag.ActionName = "register";
+            else
+                ViewBag.ActionName = "login";
+            ViewBag.Test = "elisha";
             return View();
         }
 
