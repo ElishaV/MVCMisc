@@ -1,0 +1,33 @@
+﻿@model IEnumerable<MVCMiscellaneous.Models.Customer>
+@{
+    ViewBag.Title = "Customers";
+}
+
+<style>
+    tr {
+        border: 1px solid black;
+    }
+</style>
+<h2>Customers</h2>
+
+
+@{
+    if (!Model.Any())
+    {
+        <text>WE HAVE CURRENTLY NO CUSTOMERS!</text>
+    }
+    else
+    {
+        var index = 1;
+        <table>
+            <tr><th>Customers</th></tr>
+            @foreach (var customer in Model)
+                {
+                <tr>
+                    <td>@Html.ActionLink(@customer.Name, "Details", "Customers", new { id = index }, null)</td>
+                </tr>
+                index++;
+            }
+        </table>
+    }
+}

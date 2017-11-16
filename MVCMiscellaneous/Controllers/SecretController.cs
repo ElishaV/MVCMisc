@@ -9,7 +9,7 @@ namespace MVCMiscellaneous.Controllers
     public class SecretController : Controller
     {
         // GET: Secret
-        public ContentResult Owert()
+        public ContentResult Overt()
         {
             return Content("This is not a secret....");
         }
