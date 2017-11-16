@@ -20,6 +20,7 @@ namespace MVCMiscellaneous.Models
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
+        public DbSet<Customer> Customers { get; set; } //represents Customer table
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
         {
