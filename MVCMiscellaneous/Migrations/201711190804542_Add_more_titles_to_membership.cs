@@ -3,7 +3,7 @@ namespace MVCMiscellaneous.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class populatetitlesOfMembership : DbMigration
+    public partial class Add_more_titles_to_membership : DbMigration
     {
         public override void Up()
         {

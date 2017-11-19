@@ -235,6 +235,14 @@
     <Compile Include="Migrations\201711161030189_populatetitlesOfMembership.Designer.cs">
       <DependentUpon>201711161030189_populatetitlesOfMembership.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201711190804542_Add_more_titles_to_membership.cs" />
+    <Compile Include="Migrations\201711190804542_Add_more_titles_to_membership.Designer.cs">
+      <DependentUpon>201711190804542_Add_more_titles_to_membership.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711190820282_add_birthdate.cs" />
+    <Compile Include="Migrations\201711190820282_add_birthdate.Designer.cs">
+      <DependentUpon>201711190820282_add_birthdate.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -346,6 +354,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201711161030189_populatetitlesOfMembership.resx">
       <DependentUpon>201711161030189_populatetitlesOfMembership.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711190804542_Add_more_titles_to_membership.resx">
+      <DependentUpon>201711190804542_Add_more_titles_to_membership.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711190820282_add_birthdate.resx">
+      <DependentUpon>201711190820282_add_birthdate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
