@@ -10,11 +10,11 @@ namespace MVCMiscellaneous.Controllers
     {
         public ActionResult Index(string choise = "o")
         {
-            if (choise.Equals("a"))
-                ViewBag.ActionName = "register";
-            else
-                ViewBag.ActionName = "login";
-            ViewBag.Test = "elisha";
+            //if (choise.Equals("a"))
+            //    ViewBag.ActionName = "register";
+            //else
+            //    ViewBag.ActionName = "login";
+            //ViewBag.Test = "elisha";
             return View();
         }
 
